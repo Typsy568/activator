@@ -28,7 +28,7 @@ EXIT
 
 :top
 :: Set the console text color to green (0A) and clear the screen
-color #FF0000
+color 04
 cls
 
 :: Display an ASCII art logo and instructions for the user
