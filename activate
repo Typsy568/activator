@@ -28,28 +28,11 @@ EXIT
 
 :top
 :: Set the console text color to green (0A) and clear the screen
-color 0A
+color #FF0000
 cls
 
 :: Display an ASCII art logo and instructions for the user
-echo.
-echo.    TTTTTTTTTTTTTTTTTTTTTTTTEEEEEEEEEEEEEEEEEEEEEENNNNNNNN        NNNNNNNNZZZZZZZZZZZZZZZZZZZ     OOOOOOOOO     
-echo.    T:::::::::::::::::::::TE::::::::::::::::::::EN:::::::N       N::::::NZ:::::::::::::::::Z   OO:::::::::OO   
-echo.    T:::::::::::::::::::::TE::::::::::::::::::::EN::::::::N      N::::::NZ:::::::::::::::::Z OO:::::::::::::OO 
-echo.    T:::::TT:::::::TT:::::TEE::::::EEEEEEEEE::::EN:::::::::N     N::::::NZ:::ZZZZZZZZ:::::Z O:::::::OOO:::::::O
-echo.    TTTTTT  T:::::T  TTTTTT  E:::::E       EEEEEEN::::::::::N    N::::::NZZZZZ     Z:::::Z  O::::::O   O::::::O
-echo.           T:::::T          E:::::E             N:::::::::::N   N::::::N        Z:::::Z    O:::::O     O:::::O
-echo.           T:::::T          E::::::EEEEEEEEEE   N:::::::N::::N  N::::::N       Z:::::Z     O:::::O     O:::::O
-echo.           T:::::T          E:::::::::::::::E   N::::::N N::::N N::::::N      Z:::::Z      O:::::O     O:::::O
-echo.           T:::::T          E:::::::::::::::E   N::::::N  N::::N:::::::N     Z:::::Z       O:::::O     O:::::O
-echo.           T:::::T          E::::::EEEEEEEEEE   N::::::N   N:::::::::::N    Z:::::Z        O:::::O     O:::::O
-echo.           T:::::T          E:::::E             N::::::N    N::::::::::N   Z:::::Z         O:::::O     O:::::O
-echo.           T:::::T          E:::::E       EEEEEEN::::::N     N:::::::::NZZZ:::::Z     ZZZZZO::::::O   O::::::O
-echo.       TT:::::::TT      EE::::::EEEEEEEE:::::EN::::::N      N::::::::NZ::::::ZZZZZZZZ:::ZO:::::::OOO:::::::O
-echo.       T:::::::::T      E::::::::::::::::::::EN::::::N       N:::::::NZ:::::::::::::::::Z OO:::::::::::::OO 
-echo.       T:::::::::T      E::::::::::::::::::::EN::::::N        N::::::NZ:::::::::::::::::Z   OO:::::::::OO   
-echo.       TTTTTTTTTTT      EEEEEEEEEEEEEEEEEEEEEENNNNNNNN         NNNNNNNZZZZZZZZZZZZZZZZZZZ     OOOOOOOOO     
-echo.
+
 
 :: Display the options menu for the user to select which action to take
 echo.    ===================== SELECT AN OPTION ====================
